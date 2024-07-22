@@ -16,6 +16,9 @@ compact_strains = []
 sync = []
 tracing = ["rosu-map/tracing"]
 
+[lib]
+crate-type = ["cdylib"]
+
 [dependencies]
 wasm-bindgen = "0.2.92"
 rosu-map = { version = "0.1.1" }
